@@ -1,12 +1,12 @@
 [
   {
     "name": "home",
-    "src": "images/woman-with-tablet.jpg",
-    "alt": "woman with glasses holding a tablet"
+    "src": "images/hero.jpg",
+    "alt": "programming setup hero image"
   },
   {
     "name": "about",
-    "src": "images/motion-background.jpg",
+    "src": "images/b-1.jpg",
     "alt": "gray abstract background"
   },
   {

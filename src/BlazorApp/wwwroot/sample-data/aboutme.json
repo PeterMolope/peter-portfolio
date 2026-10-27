@@ -1,12 +1,12 @@
 {
   "description": "I'm a skilled C#, .NET Developer. I enjoy creating unique and simplistic user interfaces in creative ways.",
   "skills": [
-    "Backend design",
-    "User experience",
-    "Inclusive design",
-    "Focus group testing",
-    "Mobile user interfaces",
-    "Graphic design"
+    "C#",
+    "ASP.NET Core Web API",
+    "REST API Design",
+    "PostgreSQL,",
+    "Entity Framework Core",
+    "SQL"
   ],
   "detailOrQuote": "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my backend experience I continually look for new and better ways to make tech accessible by all."
 }

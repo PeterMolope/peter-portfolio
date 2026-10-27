@@ -235,3 +235,58 @@ img.social-icon {
     .loading-progress-text:after {
         content: var(--blazor-load-percentage-text, "Loading");
     }
+
+.bar-loading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+    font-family: system-ui, sans-serif;
+}
+
+.bar-loading-title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #212529;
+    margin-bottom: 20px;
+}
+
+.progress-line {
+    width: 200px;
+    height: 4px;
+    background-color: #e9ecef;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+}
+
+    .progress-line::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 50%;
+        background-color: #212529; /* Dark elegant bar */
+        border-radius: 2px;
+        animation: loading-bar 1.5s infinite ease-in-out;
+    }
+
+@keyframes loading-bar {
+    0% {
+        left: -50%;
+        width: 30%;
+    }
+
+    50% {
+        width: 60%;
+    }
+
+    100% {
+        left: 100%;
+        width: 30%;
+    }
+}
